@@ -1,0 +1,26 @@
+{
+    "name": "phpixie2/validate",
+    "description": "Validation library for PHPixie",
+    "keywords": ["validate"],
+    "homepage": "https://github.com/iwzoo/phpixie2validate",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "iwzoo",
+            "homepage": "https://github.com/iwzoo"
+        }
+    ],
+    "require": {
+        "phpixie2/core": "2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"PHPixie": "classes/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "forked-from": "phpixie/validate"
+    }
+}
